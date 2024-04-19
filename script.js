@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let resultArray = temporaryList.sort((a, b) => a.localeCompare(b));
 
-    resultArray.forEach((itemText) => {
+    resultArray.forEach((itemText, index) => {
       const li = document.createElement('li');
-      li.textContent = itemText;
+      li.textContent = `${index + 1}. ${itemText}`;
       list.appendChild(li);
     });
 
