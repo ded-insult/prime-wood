@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+
+  padding: 12px 0;
+  gap: 12px;
+}
+
+.text-field {
+  min-width: 260px;
+  padding: 8px 12px;
+}
+
+.add-button {
+  padding: 5px 10px;
+}
+
+.list {
+  list-style-type: none;
+
+  max-width: 400px;
+  margin: 0 auto;
+
+  li {
+    border: 1px solid black;
+    padding-left: 12px;
+  }
+}
